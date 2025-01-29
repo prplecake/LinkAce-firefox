@@ -22,7 +22,7 @@ export enum StorageKeys {
 /*
  * The main API path. No trailing slash.
  */
-export const mainPath = `${localStorage[StorageKeys.Url]}/api/v1`;
+export const mainPath = `${localStorage[StorageKeys.Url]}/api/v1/`;
 
 export const yesIcon = {
     "18": "/images/icon-blue-18.png",
